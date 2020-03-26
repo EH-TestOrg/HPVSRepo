@@ -1,1 +1,8 @@
-source /usr/bin/initHPVSoP.sh
+#!/bin/bash
+source /usr/bin/initHPVSoP.sh &
+while true
+do
+    echo "Press [CTRL+C] to stop.."
+    sleep 1
+done
+
